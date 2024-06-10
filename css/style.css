@@ -81,3 +81,77 @@ html{
     cursor: pointer;
     display: none;
 }
+/* seccion SOBRE MI */
+.sobremi{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: left;
+}
+.sobremi .contenido-banner{
+    padding: 20px;
+    max-width: 100%;
+    margin: 70px;
+    text-align: left;
+}
+.sobremi .contenido-banner  img{
+    margin-top: 0px;
+    background: linear-gradient(to top, rgba(30,35,38,.8),rgba(30,35,38,1));
+    
+    background-image: url(img/img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    text-align: center;
+    float: right;
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.sobremi .contenido-banner h2{
+    margin-top: 60px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: 10px rgba(255, 81, 0, 0.4);
+    display: block;
+    border-radius: 5px;
+    background-color:rgba(255, 69, 0, 0.4) ;
+    color: orangered;
+    font-weight: 100;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+.sobremi .contenido-banner h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    font-size: 45px;
+}
+.sobremi .contenido-banner h3{
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+ .sobremi .contenido-banner p{
+    width: 500px;
+    font-family: sans-serif;
+    margin-top: 25px;
+ }
+ .sobremi .contenido-banner a button{
+    margin-top: 40px;
+    margin-left: 15px;
+    padding: 15px 30px;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+ }
+ .sobremi .contenido-banner a button:hover{
+    color: #fff;
+    background-color: orangered;
+ }
