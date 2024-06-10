@@ -155,3 +155,243 @@ html{
     color: #fff;
     background-color: orangered;
  }
+ /* seccion SERVICIOS */
+ .servicios{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+ }
+ .servicios .contenedor-servicios{
+    justify-content: center;
+    text-align: center;
+   
+ }
+ .servicios .contenedor-servicios h2{
+    color: #fff;
+    font-size: 40px;
+    
+ }
+ .servicios .contenedor-servicios p{
+    color: #fff;
+    font-size: 15px;
+    max-width: 80%;
+    text-align: center;
+    margin: 50px;
+    padding-left: 15%;
+ }
+ /* GRILLA DE SERVICIOS */
+ .servicios .contenedor-servicios .grilla-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+ }
+ /* DISEÑO WEB */
+ .servicios .contenedor-servicios  .diseño-web{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #252A2E;
+    padding: 10px;
+   
+    width: 300px;
+    height: 80px;
+    justify-content: center;
+    cursor: pointer;
+    
+ }
+ .servicios .contenedor-servicios .diseño-web:hover{
+    color: #fff;
+    background-color: orangered; 
+ }
+ .servicios .contenedor-servicios .diseño-web img{
+    width: 15%;
+ }
+ .servicios .contenedor-servicios .diseño-web p{
+    max-width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0 60px 0 20px;
+ }
+ /* HABILIDADES ANALITICAS */
+ .servicios .contenedor-servicios .habilidades-analiticas{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #252A2E;
+    padding: 10px;
+    
+    width: 300px;
+    height: 80px;
+    justify-content: center;
+    cursor: pointer;
+    
+ }
+ .servicios .contenedor-servicios .habilidades-analiticas:hover{
+    color: #fff;
+    background-color: orangered; 
+ }
+ .servicios .contenedor-servicios .habilidades-analiticas img{
+    width: 15%;
+ }
+ .servicios .contenedor-servicios .habilidades-analiticas p{
+    max-width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0 60px 0 20px;
+ }
+ /* DESARROLLO WEB */
+ .servicios .contenedor-servicios .desarrollo-web{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #252A2E;
+    padding: 10px;
+    
+    width: 300px;
+    height: 80px;
+    justify-content: center;
+    cursor: pointer;
+    
+ }
+ .servicios .contenedor-servicios .desarrollo-web:hover{
+    color: #fff;
+    background-color: orangered; 
+ }
+ .servicios .contenedor-servicios .desarrollo-web img{
+    width: 15%;
+ }
+ .servicios .contenedor-servicios .desarrollo-web p{
+    max-width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0 60px 0 20px;
+ }
+ /* DISEÑO GRAFICO */
+ .servicios .contenedor-servicios .diseño-grafico{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #252A2E;
+    padding: 10px;
+    
+    width: 300px;
+    height: 80px;
+    justify-content: center;
+    cursor: pointer;
+    
+ }
+ .servicios .contenedor-servicios .diseño-grafico:hover{
+    color: #fff;
+    background-color: orangered; 
+ }
+ .servicios .contenedor-servicios .diseño-grafico img{
+    width: 15%;
+ }
+ .servicios .contenedor-servicios .diseño-grafico p{
+    max-width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0 60px 0 20px;
+ }
+ /* APLICACION */
+ .servicios .contenedor-servicios .aplicacion{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #252A2E;
+    padding: 10px;
+    
+    width: 300px;
+    height: 80px;
+    justify-content: center;
+    cursor: pointer;
+    
+ }
+ .servicios .contenedor-servicios .aplicacion:hover{
+    color: #fff;
+    background-color: orangered; 
+ }
+ .servicios .contenedor-servicios .aplicacion img{
+    width: 15%;
+    margin-left: -30px;
+ }
+ .servicios .contenedor-servicios .aplicacion p{
+    max-width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0 60px 0 20px;
+ }
+ .servicios .contenedor-servicios .aplicacion span{
+   display: flex;
+   text-align: right;
+ }
+ /* SOLUCION DE PROBLEMAS */
+ .servicios .contenedor-servicios .solucion-problemas{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #252A2E;
+    padding: 10px;
+    
+    width: 300px;
+    height: 80px;
+    justify-content: center;
+    cursor: pointer;
+    
+ }
+ .servicios .contenedor-servicios .solucion-problemas:hover{
+    color: #fff;
+    background-color: orangered; 
+ }
+ .servicios .contenedor-servicios .solucion-problemas img{
+    width: 15%;
+    margin-left: -10px;
+ }
+ .servicios .contenedor-servicios .solucion-problemas p{
+    max-width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0 10px 0 10px;
+ }
+ /* VER TODO */
+ .ver-todo a button{
+    padding-top: 40px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 15px 30px;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+ }
+ .ver-todo a button:hover{
+    color: #fff;
+    background-color: orangered;
+    border: none;
+ }
+
+ 
+
+ 
+
+
+
