@@ -389,9 +389,262 @@ html{
     border: none;
  }
 
- 
+/* seccion PORTFOLIO */
+.portfolio{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 40px 20px;
+    text-align: center;
+}
+.portfolio .contenedor-portfolio{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center; 
+    width: 100%;
+}
+.portfolio .contenedor-portfolio .intro h3{
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #aaa;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    text-align: left;
+    margin: 70px;
+    margin-bottom: 20px;
+    max-width: 40%;
+}
+.portfolio .contenedor-portfolio .intro h2{
+    font-size: 2.5rem;
+    margin-left: 70px;
+    margin-top: 20px;
+    justify-content: flex-start;
+    text-align: left;
+    
 
- 
+}
+.portfolio .contenedor-portfolio .descripcion{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 40px;
+    width: 500px;
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-top: 0;
+    padding: 0;
+}
+.portfolio .contenedor-portfolio .descripcion p{
+    font-size: 1rem;
+    color: #aaa;
+    max-width: 100%;
+    margin: 0;
+}
+.portfolio .contenedor-portfolio .descripcion .ver-todo1{
+    font-size: 1rem;
+    color: orangered;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding-top: 10px;
+    display: flex;
+    text-align: left;
+    
+}
+.portfolio .contenedor-portfolio .descripcion .ver-todo1:hover{
+    color: #e03e00;
+}
+.portfolio .contenedor-portfolio .grilla-portfolio{
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+/* caso 1 */
+.portfolio .contenedor-portfolio .grilla-portfolio .caso1 img{
+    width: 300px;
+    border-radius: 8px;
+}
+.portfolio .contenedor-portfolio .grilla-portfolio .caso1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+/* caso 2 */
+.portfolio .contenedor-portfolio .grilla-portfolio .caso2 img{
+    width: 300px;
+    border-radius: 8px;
+}
+.portfolio .contenedor-portfolio .grilla-portfolio .caso2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+/* caso 3 */
+.portfolio .contenedor-portfolio .grilla-portfolio .caso3 img{
+    width: 300px;
+    border-radius: 8px;
+}
+.portfolio .contenedor-portfolio .grilla-portfolio .caso3:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+/* PLANES */
+.portfolio .contenedor-planes{
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.portfolio .contenedor-planes h2{
+    color: #fff;
+    font-size: 40px;
+    
+ }
+ .portfolio .contenedor-planes p{
+    color: #fff;
+    font-size: 12px;
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-left: 15%;  
+ }
+ .portfolio .contenedor-planes .grilla-planes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+ }
+ /* BASICO */
+ .portfolio .contenedor-planes .grilla-planes .basico{
+    background-color: #252A2E;
+    border-radius: 5px;
+    padding: 15px; 
+ }
+ .portfolio .contenedor-planes .grilla-planes .basico h3{
+    font-weight: 100;
+ }
+ .portfolio .contenedor-planes .grilla-planes .basico h2{
+    color: orangered;
+    padding-top: 20px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .basico p{
+    padding-bottom: 10px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .basico a button{
+    border: 1px orangered solid;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    border-radius: 5px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .basico a button:hover{
+    background-color: orangered;
+ }
+ /* ESTANDAR */ 
+ .portfolio .contenedor-planes .grilla-planes .estandar{
+    background-color: #252A2E;
+    border-radius: 5px;
+    padding: 15px;
+ }
 
+ .portfolio .contenedor-planes .grilla-planes .estandar h3{
+    font-weight: 100;
+ }
+ .portfolio .contenedor-planes .grilla-planes .estandar h2{
+    color: orangered;
+    padding-top: 20px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .estandar p{
+    padding-bottom: 10px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .estandar a button{
+    border: 1px orangered solid;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    border-radius: 5px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .estandar a button:hover{
+    background-color: orangered;
+ }
+  /* PREMIUM */ 
+  .portfolio .contenedor-planes .grilla-planes .premium{
+    background-color: #252A2E;
+    border-radius: 5px;
+    padding: 15px;
+ }
+
+ .portfolio .contenedor-planes .grilla-planes .premium h3{
+    font-weight: 100;
+ }
+ .portfolio .contenedor-planes .grilla-planes .premium h2{
+    color: orangered;
+    padding-top: 20px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .premium p{
+    padding-bottom: 10px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .premium a button{
+    border: 1px orangered solid;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    border-radius: 5px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .premium a button:hover{
+    background-color: orangered;
+ }
+  /* DORADO */ 
+  .portfolio .contenedor-planes .grilla-planes .dorado{
+    background-color: #252A2E;
+    border-radius: 5px;
+    padding: 15px;
+ }
+
+ .portfolio .contenedor-planes .grilla-planes .dorado h3{
+    font-weight: 100;
+ }
+ .portfolio .contenedor-planes .grilla-planes .dorado h2{
+    color: orangered;
+    padding-top: 20px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .dorado p{
+    padding-bottom: 10px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .dorado a button{
+    border: 1px orangered solid;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    border-radius: 5px;
+ }
+ .portfolio .contenedor-planes .grilla-planes .dorado a button:hover{
+    background-color: orangered;
+ }
+
+
+
+    
 
 
