@@ -534,7 +534,7 @@ html{
  }
  /* BASICO */
  .portfolio .contenedor-planes .grilla-planes .basico{
-    background-color: #252A2E;
+    background-color: rgba(37, 42, 46, 0.4);
     border-radius: 5px;
     padding: 15px; 
  }
@@ -562,7 +562,7 @@ html{
  }
  /* ESTANDAR */ 
  .portfolio .contenedor-planes .grilla-planes .estandar{
-    background-color: #252A2E;
+    background-color: rgba(37, 42, 46, 0.4);
     border-radius: 5px;
     padding: 15px;
  }
@@ -591,7 +591,7 @@ html{
  }
   /* PREMIUM */ 
   .portfolio .contenedor-planes .grilla-planes .premium{
-    background-color: #252A2E;
+    background-color: rgba(37, 42, 46, 0.4);
     border-radius: 5px;
     padding: 15px;
  }
@@ -620,7 +620,7 @@ html{
  }
   /* DORADO */ 
   .portfolio .contenedor-planes .grilla-planes .dorado{
-    background-color: #252A2E;
+    background-color: rgba(37, 42, 46, 0.4);
     border-radius: 5px;
     padding: 15px;
  }
@@ -647,6 +647,244 @@ html{
  .portfolio .contenedor-planes .grilla-planes .dorado a button:hover{
     background-color: orangered;
  }
+/* seccion TESTIMONIOS */
+.testimonios{
+    margin: 0;
+    padding-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+.testimonios h3{
+    font-size: 1rem;
+    font-weight: 120;
+    width: 100%;
+}
+.testimonios h2{
+    margin-top: 1em;
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.testimonios .contenedor-testimonios{
+    position: relative;  
+}
+.testimonios .contenedor-testimonios .testimonio{
+    background-color:rgba(37, 42, 46, 0.4) ;
+    padding: 2em;
+    border-radius: 8px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.testimonios .contenedor-testimonios .testimonio img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px #fff solid;
+}
+.testimonios .contenedor-testimonios .testimonio p{
+    flex-grow: 1;
+    text-align: left;
+}
+.testimonios .contenedor-testimonios .testimonio h3{
+    margin: 0.5em 0 0.2em 0;
+}
+.testimonios .contenedor-testimonios .testimonio span{
+    font-size: 0.9em;
+    color: #bbb;
+}
+.paginas{
+    margin-top: 1em;
+}
+.paginas .punto{
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:checked + .testimonio{
+    display: flex;
+}
+input[type="radio"]#testimonio-1:checked ~ .paginas .punto:nth-of-type(1)
+input[type="radio"]#testimonio-2:checked ~ .paginas .punto:nth-of-type(2)
+input[type="radio"]#testimonio-3:checked ~ .paginas .punto:nth-of-type(3){
+    background-color: orangered;
+}
+.punto:checked{
+    background-color: orangered;
+    color: orangered;
+}
+.punto:hover{
+    background-color: orangered;
+
+}
+/* seccion BLOG */
+.blog{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 40px 20px;
+    text-align: center;
+}
+.blog h2{
+    font-size: 40px;
+}
+.blog p{
+    color: #fff;
+    font-size: 12px;
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-left: 15%;
+    line-height: 20px;
+}
+.blog .posteos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+/* POST 1 */
+.blog .posteos .blog-post1{
+    width: 250px;
+    text-align: left;
+}
+.blog .posteos .blog-post1 img{
+    width: 250px;
+    border-radius: 5px;
+}
+.blog .posteos .blog-post1 .info-posteo{
+    line-height: 40px;
+}
+.blog .posteos .blog-post1 .info-posteo span{
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blog .posteos .blog-post1 .info-posteo h3{
+    font-weight: 100;
+    line-height: 15px;
+}
+.blog .posteos .blog-post1 .info-posteo .leer-mas{
+    
+    color: orangered;
+    font-weight: 100;
+    text-decoration: none;   
+}
+.blog .posteos .blog-post1 .info-posteo .leer-mas:hover{
+    color: orangered;
+    font-weight: 150;
+    text-decoration: underline;   
+}
+/* POST 2 */
+.blog .posteos .blog-post2{
+    width: 250px;
+    text-align: left;
+}
+.blog .posteos .blog-post2 img{
+    width: 250px;
+    border-radius: 5px;
+}
+.blog .posteos .blog-post2 .info-posteo{
+    line-height: 40px;
+}
+.blog .posteos .blog-post2 .info-posteo span{
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blog .posteos .blog-post2 .info-posteo h3{
+    font-weight: 100;
+    line-height: 15px;
+}
+.blog .posteos .blog-post2 .info-posteo .leer-mas{
+    
+    color: orangered;
+    font-weight: 100;
+    text-decoration: none;   
+}
+.blog .posteos .blog-post2 .info-posteo .leer-mas:hover{
+    color: orangered;
+    font-weight: 150;
+    text-decoration: underline;   
+}
+/* POST 3 */
+.blog .posteos .blog-post3{
+    width: 250px;
+    text-align: left;
+}
+.blog .posteos .blog-post3 img{
+    width: 250px;
+    border-radius: 5px;
+}
+.blog .posteos .blog-post3 .info-posteo{
+    line-height: 40px;
+}
+.blog .posteos .blog-post3 .info-posteo span{
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blog .posteos .blog-post3 .info-posteo h3{
+    font-weight: 100;
+    line-height: 15px;
+}
+.blog .posteos .blog-post3 .info-posteo .leer-mas{
+    
+    color: orangered;
+    font-weight: 100;
+    text-decoration: none;   
+}
+.blog .posteos .blog-post3 .info-posteo .leer-mas:hover{
+    color: orangered;
+    font-weight: 150;
+    text-decoration: underline;   
+}
+.boton{
+    margin-top: 70px;
+}
+.ver-todo-blog{
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 15px 60px 15px 60px;
+    margin-top: 100%;
+    color: orangered;
+    text-decoration: none;
+    cursor: pointer;
+}
+.ver-todo-blog:hover{
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    box-shadow: orangered;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+
+
+
+
 
 
 
