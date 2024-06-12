@@ -1,0 +1,113 @@
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .nav-responsive {
+        display: block; 
+    }
+
+    #nav-menu {
+         
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        text-align: right;
+    }
+
+    #nav-menu.active {
+        display: flex; 
+    }
+    .contenedor-header{
+        background-color:rgba(0, 0, 0, 1) ;
+    }
+
+    .contenedor-header header nav ul li a {
+        width: 100%;
+        display: none;
+        margin: 10px 0;
+    }
+    .contenedor-header header {
+            flex-direction: row;
+            align-items: center;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .sobremi .contenido-banner {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .sobremi .contenido-banner img {
+            display: none;
+        }
+        .servicios .contenedor-servicios .grilla-servicios {
+            flex-direction: column;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .portfolio .contenedor-portfolio .descripcion {
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+        }
+        .portfolio .contenedor-portfolio .grilla-portfolio {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .testimonios {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .blog .posteos {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .nav-responsive {
+            display: block; 
+        }
+    
+        #nav-menu {
+            display: none; 
+            flex-direction: column;
+            background-color: black;
+            position: absolute;
+            top: 70px;
+            right: 0;
+            width: 100%;
+            text-align: right;
+            
+        }
+    
+        #nav-menu.active {
+            display: flex; 
+        }
+        .contenedor-header{
+            margin: 0;
+            z-index: 0;
+            max-width: 80%;
+        }
+    
+        .contenedor-header header nav ul li a {
+            margin: 10px 0;
+            display: none;
+            width: 100%;   
+        }
+        .sobremi{
+            width: 100%;
+        }
+        
+        .info-contacto1{
+            margin: 0;
+        }
+    }
+
+    
+     
+    
+    
